@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Created By John</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Include Font Awesome for arrow icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Apps</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#apps">Apps</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is <b id="myname">John Prakash</b> I'm a fullstack developer and here are some of my apps. Feel free to explore and download them!</p>
+    </section>
+
+    <section id="apps">
+        <h2>My Apps</h2>
+        <div class="app">
+            <h3>1 : Chat App</h3>
+            <button class="show-image" data-image="path-to-your-app-one-image.jpg">
+                <i class="fas fa-arrow-down"></i>
+                <span class="button-text">Show Screenshot</span>
+            </button>
+            <div class="image-container" id="image-app-one">
+                <img src="path-to-your-app-two-image.jpg" alt="App One Screenshot">
+            </div>
+            <p><b>Real-Time Messaging:</b> Experience instantaneous communication with our real-time messaging system. Send and receive messages with zero latency, ensuring your conversations are as lively and engaging as they would be in person.</p>
+            <p><b>Push Notifications:</b> Stay updated with real-time notifications for new messages and activity. Customizable notification settings allow you to manage your alerts and stay focused on what matters most.</p>
+            <p><b>User Profiles:</b> Customize your profile with a unique username, profile picture, and status updates. Connect with friends, colleagues, or clients effortlessly and maintain your personal or professional network with ease.</p>
+            <a href="Chat_App.apk" download="Chat_App.Apk">Download Chat App APK <i class="fas fa-arrow-down"></i></a>
+        </div>
+        <div class="app">
+            <h3>2 : Calculator</h3>
+            <button class="show-image" data-image="path-to-your-app-two-image.jpg">
+                <i class="fas fa-arrow-down"></i>
+                <span class="button-text">Show Screenshot</span>
+            </button>
+            <div class="image-container" id="image-app-two">
+                <img src="path-to-your-app-two-image.jpg" alt="App Two Screenshot">
+            </div>
+            <p><b>Basic Arithmetic Operations:</b> Perform addition, subtraction, multiplication, and division with ease. The calculator supports all fundamental operations for quick and accurate results.</p>
+            <p><b>Clear and Reset Functions:</b> Easily clear the current input or reset the entire calculation with a single button press, ensuring that you can start fresh whenever needed.</p>
+            <p><b>User-Friendly Interface:</b> Enjoy a clean and simple interface that makes entering numbers and operations straightforward. The large buttons and clear display ensure an easy-to-use experience.</p>
+            <a href="Calculator.apk"  download="Calculator.APK">Download Calculator APK  <i class="fas fa-arrow-down"></i> </a>
+        </div>
+        <div class="app">
+            <h3>3 : Number Guessing Game</h3>
+            <button class="show-image" data-image="path-to-your-app-three-image.jpg">
+                <i class="fas fa-arrow-down"></i>
+                <span class="button-text">Show Screenshot</span>
+            </button>
+            <div class="image-container" id="image-app-three">
+                <img src="path-to-your-app-two-image.jpg" alt="App Two Screenshot">
+            </div>
+            <p><b>Random Number Generation:</b> The game generates a random number within a specified range (1 to 100), ensuring that each playthrough is unique and challenging.</p>
+            <p><b>Start the Game:</b> Begin by clicking the "Start" button to generate a random number within the specified range(1 to 100)</p>
+            <p><b>Make Your Guess:</b> Enter your guess into the input field and submit it.</p>
+            <p><b>Receive Feedback:</b> Check the feedback to see if your guess was too high, too low with the sounds. if it is correct then play again else</p>
+            <p><b>Guess Again:</b> Adjust your guess based on the feedback and try again</p>
+             <a href="Number_Guessing_Game.apk"  download="Number_Guessing_Game.APK">Download Number Guessing Game APK  <i class="fas fa-arrow-down"></i> </a>
+        </div>
+        <div class="app">
+            <h3>4 :Tables App</h3>
+            <button class="show-image" data-image="path-to-your-app-four-image.jpg">
+                <i class="fas fa-arrow-down"></i>
+                <span class="button-text">Show Screenshot</span>
+            </button>
+            <div class="image-container" id="image-app-four">
+                <img src="path-to-your-app-two-image.jpg" alt="App Two Screenshot">
+            </div>
+            <p><b>Tables: </b>This app provides all tables which you want.It also provides infinte steps for you</p>
+             <a href="Tables.apk"  download="Tables.Apk">Download Tables APK  <i class="fas fa-arrow-down"></i> </a>
+        </div>
+    </section>
+
+    <section id="apps">
+        <h2>My Apps In Pending</h2>
+        <div class="app">
+            <h3>1 : Aditya Bus Details App</h3>
+            <button class="show-image" data-image="path-to-your-app-two-image.jpg">
+                <i class="fas fa-arrow-down"></i>
+                <span class="button-text">Show Screenshot</span>
+            </button>
+            <div class="image-container" id="image-app-two">
+                <img src="path-to-your-app-two-image.jpg" alt="App Two Screenshot">
+            </div>
+            <p><b>Details: </b>we need some data of aditya buses</p>
+             <a href="Aditya_Bus_Details.apk"  download>Download Aditya Bus Details APK  <i class="fas fa-arrow-down"></i> </a>
+        </div>
+        </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or feedback, feel free to reach out!</p>
+        <form action="mailto:prakashjohn7878@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label> 
+            <input type="text" id="name" name="name" minlength="4" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" minlength="10" required ></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

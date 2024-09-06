@@ -66,9 +66,18 @@ section#about {
 section#apps {
     background: #e0f7fa;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(145, 163, 55, 0.1);
+}
+section#websites {
+    background: hsla(105, 69%, 76%, 0.467);
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+section#appspending {
+    background: hsla(0, 56%, 64%, 0.731);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 section#contact {
     background: #ffeb3b;
     border-radius: 8px;

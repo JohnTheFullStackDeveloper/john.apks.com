@@ -50,17 +50,10 @@ section {
     margin: auto;
 }
 #myname{
-    color: #d43f3f09;
-    font-size: 7px;
+    color: #ff3c00;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    transition: color  0.7s;
-    transition: font-size 1s;
 }
 
-#myname:hover{
-    font-size: 1.1rem;
-    color: #ff3c00;
-}
 b{
     color:rgb(168, 65, 228);
 }

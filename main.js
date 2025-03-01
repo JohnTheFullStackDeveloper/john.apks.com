@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
         button.addEventListener('click', () => {
             const imageContainer = button.nextElementSibling;
             const isVisible = imageContainer.style.display === 'block';
-
             // Hide all images
             document.querySelectorAll('.image-container').forEach(container => {
                 container.style.display = 'none';
